@@ -1,0 +1,18 @@
+name: bing
+
+#conda env update --file local.yml --prune
+
+channels:
+  - bioconda
+dependencies:
+  - python=3.9
+  - biopython
+  - matplotlib
+  - pyteomics
+  - pandas
+  - lxml
+  - matchms
+  - openpyxl
+  - requests
+  - bs4
+
